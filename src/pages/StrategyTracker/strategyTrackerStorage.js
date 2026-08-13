@@ -163,8 +163,6 @@ export function getStorageUsageEstimate() {
 
 // ---------- Auto-updating stats ----------
 
-const CHECKLIST_KEYS = ["weeklyBias", "dailySweep", "fvgTap", "fourHTrend"];
-
 export function isFullyAligned(entry) {
   // "Aligned" means every checklist factor pointed the same direction as the trade taken,
   // not just that a value was filled in. Neutral/Mixed/No-sweep readings never count as aligned.
