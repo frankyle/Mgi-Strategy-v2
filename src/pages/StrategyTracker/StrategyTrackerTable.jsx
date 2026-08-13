@@ -1,6 +1,6 @@
 // StrategyTrackerTable.jsx
 import React, { useState } from "react";
-import { Trash2, Image as ImageIcon } from "lucide-react";
+import { Trash2 } from "lucide-react";
 import toast from "react-hot-toast";
 import { deleteEntry, updateEntry, isFullyAligned } from "./strategyTrackerStorage";
 

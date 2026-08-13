@@ -1,7 +1,7 @@
 // StrategyTracker.jsx
 import React, { useEffect, useState } from "react";
 import { Plus, X, HardDrive } from "lucide-react";
-import toast, { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import {
   getPairs,
   addPair,
